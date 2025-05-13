@@ -4,7 +4,38 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Bem vindo</h1>
-    
+<style>
+    body {
+        background-image: url('/images/background-tech.jpg');
+        /* Coloque a imagem em wwwroot/images */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 60px 20px;
+        border-radius: 12px;
+        max-width: 800px;
+        margin: 100px auto;
+    }
+
+    h1,
+    p {
+        color: #f8f9fa;
+    }
+</style>
+
+<div class="overlay text-center">
+
+    <h1 class="display-4 mb-4">Bem-vindo ao Quiz de Informática</h1>
+
+    <p class="lead mb-4">
+        Teste seus conhecimentos sobre tecnologia com 5 perguntas de múltipla escolha.
+        Ao final, sua pontuação será salva automaticamente no sistema com seu nome de usuário.
+    </p>
+
+    <a asp-page="/Quiz" class="btn btn-primary btn-lg px-4">Começar o Quiz</a>
 </div>

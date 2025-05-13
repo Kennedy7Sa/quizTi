@@ -4,8 +4,9 @@
     ViewData["Title"] = "Resultado";
 }
 
-<h1>Resultado do Quiz</h1>
-
-<p>Sua pontuação: <strong>@Model.Pontuacao</strong> de 5</p>
+<div class="alert alert-success shadow-sm">
+    <i class="bi bi-trophy-fill me-2"></i>
+    Sua pontuação: <strong>@TempData["Pontuacao"]</strong> de 5
+</div>
 
 <a asp-page="/Ranking" class="btn btn-success">Ver Ranking</a>

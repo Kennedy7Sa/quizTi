@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using quizInformatica.Data;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
+[Authorize]
 public class RankingModel : PageModel
 {
     private readonly ApplicationDbContext _context;

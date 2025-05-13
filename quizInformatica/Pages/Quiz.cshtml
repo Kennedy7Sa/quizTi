@@ -6,47 +6,120 @@
 
 <h1>Quiz de Informática</h1>
 
-<form method="post">
-    <div>
-        <label>1. O que significa "CPU"?</label><br />
-        <div><input type="radio" name="respostas[0]" value="Unidade Central de Processamento" /> Unidade Central de Processamento</div>
-        <div><input type="radio" name="respostas[0]" value="Unidade de Controle Principal" /> Unidade de Controle Principal</div>
-        <div><input type="radio" name="respostas[0]" value="Processador de Dados" /> Processador de Dados</div>
-        <div><input type="radio" name="respostas[0]" value="Centro de Programação Único" /> Centro de Programação Único</div>
-    </div>
+    <form method="post">
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">1. O que significa "CPU"?</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[0]" id="q1a" value="Unidade Central de Processamento" required>
+                    <label class="form-check-label" for="q1a">Unidade Central de Processamento</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[0]" id="q1b" value="Unidade de Controle Principal">
+                    <label class="form-check-label" for="q1b">Unidade de Controle Principal</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[0]" id="q1c" value="Processador de Dados">
+                    <label class="form-check-label" for="q1c">Processador de Dados</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[0]" id="q1d" value="Centro de Programação Único">
+                    <label class="form-check-label" for="q1d">Centro de Programação Único</label>
+                </div>
+            </div>
+        </div>
 
-    <div>
-        <label>2. Qual sistema operacional é desenvolvido pela Microsoft?</label><br />
-        <div><input type="radio" name="respostas[1]" value="Linux" /> Linux</div>
-        <div><input type="radio" name="respostas[1]" value="macOS" /> macOS</div>
-        <div><input type="radio" name="respostas[1]" value="Windows" /> Windows</div>
-        <div><input type="radio" name="respostas[1]" value="Ubuntu" /> Ubuntu</div>
-    </div>
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">2. Qual sistema operacional é desenvolvido pela Microsoft?</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[1]" id="q2a" value="Linux" required>
+                    <label class="form-check-label" for="q2a">Linux</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[1]" id="q2b" value="macOS">
+                    <label class="form-check-label" for="q2b">macOS</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[1]" id="q2c" value="Windows">
+                    <label class="form-check-label" for="q2c">Windows</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[1]" id="q2d" value="Ubuntu">
+                    <label class="form-check-label" for="q2d">Ubuntu</label>
+                </div>
+            </div>
+        </div>
 
-    <div>
-        <label>3. O que é um SSD?</label><br />
-        <div><input type="radio" name="respostas[2]" value="Disco Rígido Mecânico" /> Disco Rígido Mecânico</div>
-        <div><input type="radio" name="respostas[2]" value="Unidade de Estado Sólido" /> Unidade de Estado Sólido</div>
-        <div><input type="radio" name="respostas[2]" value="Memória RAM" /> Memória RAM</div>
-        <div><input type="radio" name="respostas[2]" value="Placa de Vídeo" /> Placa de Vídeo</div>
-    </div>
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">3. O que é um SSD?</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[2]" id="q3a" value="Disco Rígido Mecânico" required>
+                    <label class="form-check-label" for="q3a">Disco Rígido Mecânico</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[2]" id="q3b" value="Unidade de Estado Sólido">
+                    <label class="form-check-label" for="q3b">Unidade de Estado Sólido</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[2]" id="q3c" value="Memória RAM">
+                    <label class="form-check-label" for="q3c">Memória RAM</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[2]" id="q3d" value="Placa de Vídeo">
+                    <label class="form-check-label" for="q3d">Placa de Vídeo</label>
+                </div>
+            </div>
+        </div>
 
-    <div>
-        <label>4. Qual é a linguagem de marcação usada para criar páginas web?</label><br />
-        <div><input type="radio" name="respostas[3]" value="HTML" /> HTML</div>
-        <div><input type="radio" name="respostas[3]" value="C#" /> C#</div>
-        <div><input type="radio" name="respostas[3]" value="Python" /> Python</div>
-        <div><input type="radio" name="respostas[3]" value="SQL" /> SQL</div>
-    </div>
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">4. Qual é a linguagem de marcação usada para criar páginas web?</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[3]" id="q4a" value="HTML" required>
+                    <label class="form-check-label" for="q4a">HTML</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[3]" id="q4b" value="C#">
+                    <label class="form-check-label" for="q4b">C#</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[3]" id="q4c" value="Python">
+                    <label class="form-check-label" for="q4c">Python</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[3]" id="q4d" value="SQL">
+                    <label class="form-check-label" for="q4d">SQL</label>
+                </div>
+            </div>
+        </div>
 
-    <div>
-        <label>5. O que significa a sigla "RAM"?</label><br />
-        <div><input type="radio" name="respostas[4]" value="Memória de Acesso Aleatório" /> Memória de Acesso Aleatório</div>
-        <div><input type="radio" name="respostas[4]" value="Memória de Leitura Somente" /> Memória de Leitura Somente</div>
-        <div><input type="radio" name="respostas[4]" value="Unidade de Armazenamento" /> Unidade de Armazenamento</div>
-        <div><input type="radio" name="respostas[4]" value="Memória de Backup" /> Memória de Backup</div>
-    </div>
+        <div class="card mb-4 shadow-sm">
+            <div class="card-body">
+                <h5 class="card-title">5. O que significa a sigla "RAM"?</h5>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[4]" id="q5a" value="Memória de Acesso Aleatório" required>
+                    <label class="form-check-label" for="q5a">Memória de Acesso Aleatório</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[4]" id="q5b" value="Memória de Leitura Somente">
+                    <label class="form-check-label" for="q5b">Memória de Leitura Somente</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[4]" id="q5c" value="Unidade de Armazenamento">
+                    <label class="form-check-label" for="q5c">Unidade de Armazenamento</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="respostas[4]" id="q5d" value="Memória de Backup">
+                    <label class="form-check-label" for="q5d">Memória de Backup</label>
+                </div>
+            </div>
+        </div>
 
-    <br />
-    <button type="submit" class="btn btn-primary">Enviar</button>
-</form>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success btn-lg px-4">Enviar Respostas</button>
+        </div>
+    </form>
+</div>
+

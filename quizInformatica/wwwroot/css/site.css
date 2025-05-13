@@ -9,7 +9,7 @@ html {
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #1a2025;
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
@@ -28,4 +28,41 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0,0,0,0.05);
+}
+
+.btn {
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.table {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.navbar {
+    border-radius: 0 0 1rem 1rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
 }

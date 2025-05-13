@@ -275,4 +275,5 @@ C:\Projetos\C#\quizTi\quizinformatica\obj\Debug\net9.0\refint\quizInformatica.dl
 C:\Projetos\C#\quizTi\quizinformatica\obj\Debug\net9.0\quizInformatica.pdb
 C:\Projetos\C#\quizTi\quizinformatica\obj\Debug\net9.0\quizInformatica.genruntimeconfig.cache
 C:\Projetos\C#\quizTi\quizinformatica\obj\Debug\net9.0\ref\quizInformatica.dll
-C:\Projetos\C#\quizTi\quizinformatica\obj\Debug\net9.0\compressed\ye8gxcw6zw-52uwe7l9lv.gz
+C:\Projetos\C#\quizTi\quizinformatica\obj\Debug\net9.0\quizInformatica.sourcelink.json
+C:\Projetos\C#\quizTi\quizinformatica\obj\Debug\net9.0\compressed\ye8gxcw6zw-et2vfw4onb.gz

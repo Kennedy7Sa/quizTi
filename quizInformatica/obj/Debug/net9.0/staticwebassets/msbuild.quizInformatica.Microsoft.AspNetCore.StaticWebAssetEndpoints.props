@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/quizInformatica/css/site.52uwe7l9lv.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"52uwe7l9lv"},{"Name":"integrity","Value":"sha256-LToWNVyfzTMc1d\u002BJwEaXJQJD\u002BbKf/poPddBj1Yn/x1c="},{"Name":"label","Value":"_content/quizInformatica/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LToWNVyfzTMc1d\u002BJwEaXJQJD\u002BbKf/poPddBj1Yn/x1c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 14:32:46 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/quizInformatica/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-LToWNVyfzTMc1d\u002BJwEaXJQJD\u002BbKf/poPddBj1Yn/x1c="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"667"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022LToWNVyfzTMc1d\u002BJwEaXJQJD\u002BbKf/poPddBj1Yn/x1c=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 14:32:46 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Ak8AExa9DqVGRTEMjawkPVNuyTPnLLcG1OsulpV\u002BhKI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1226"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ak8AExa9DqVGRTEMjawkPVNuyTPnLLcG1OsulpV\u002BhKI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 14:40:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/quizInformatica/css/site.et2vfw4onb.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"et2vfw4onb"},{"Name":"integrity","Value":"sha256-Ak8AExa9DqVGRTEMjawkPVNuyTPnLLcG1OsulpV\u002BhKI="},{"Name":"label","Value":"_content/quizInformatica/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1226"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Ak8AExa9DqVGRTEMjawkPVNuyTPnLLcG1OsulpV\u002BhKI=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 14:40:47 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/quizInformatica/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -23,6 +23,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 03:52:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/quizInformatica/images/background-tech.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\background-tech.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y3uAfER9kz76OFg8Z\u002Biw\u002B3LKC59i\u002B97VDEz3KDYrnbQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"363155"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022y3uAfER9kz76OFg8Z\u002Biw\u002B3LKC59i\u002B97VDEz3KDYrnbQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 16:42:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/quizInformatica/images/background-tech.pnynpr3tw1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\background-tech.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pnynpr3tw1"},{"Name":"integrity","Value":"sha256-y3uAfER9kz76OFg8Z\u002Biw\u002B3LKC59i\u002B97VDEz3KDYrnbQ="},{"Name":"label","Value":"_content/quizInformatica/images/background-tech.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"363155"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022y3uAfER9kz76OFg8Z\u002Biw\u002B3LKC59i\u002B97VDEz3KDYrnbQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 16:42:41 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/quizInformatica/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
