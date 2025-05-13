@@ -1,0 +1,52 @@
+﻿@page
+@model QuizModel
+@{
+    ViewData["Title"] = "Quiz de Informática";
+}
+
+<h1>Quiz de Informática</h1>
+
+<form method="post">
+    <div>
+        <label>1. O que significa "CPU"?</label><br />
+        <div><input type="radio" name="respostas[0]" value="Unidade Central de Processamento" /> Unidade Central de Processamento</div>
+        <div><input type="radio" name="respostas[0]" value="Unidade de Controle Principal" /> Unidade de Controle Principal</div>
+        <div><input type="radio" name="respostas[0]" value="Processador de Dados" /> Processador de Dados</div>
+        <div><input type="radio" name="respostas[0]" value="Centro de Programação Único" /> Centro de Programação Único</div>
+    </div>
+
+    <div>
+        <label>2. Qual sistema operacional é desenvolvido pela Microsoft?</label><br />
+        <div><input type="radio" name="respostas[1]" value="Linux" /> Linux</div>
+        <div><input type="radio" name="respostas[1]" value="macOS" /> macOS</div>
+        <div><input type="radio" name="respostas[1]" value="Windows" /> Windows</div>
+        <div><input type="radio" name="respostas[1]" value="Ubuntu" /> Ubuntu</div>
+    </div>
+
+    <div>
+        <label>3. O que é um SSD?</label><br />
+        <div><input type="radio" name="respostas[2]" value="Disco Rígido Mecânico" /> Disco Rígido Mecânico</div>
+        <div><input type="radio" name="respostas[2]" value="Unidade de Estado Sólido" /> Unidade de Estado Sólido</div>
+        <div><input type="radio" name="respostas[2]" value="Memória RAM" /> Memória RAM</div>
+        <div><input type="radio" name="respostas[2]" value="Placa de Vídeo" /> Placa de Vídeo</div>
+    </div>
+
+    <div>
+        <label>4. Qual é a linguagem de marcação usada para criar páginas web?</label><br />
+        <div><input type="radio" name="respostas[3]" value="HTML" /> HTML</div>
+        <div><input type="radio" name="respostas[3]" value="C#" /> C#</div>
+        <div><input type="radio" name="respostas[3]" value="Python" /> Python</div>
+        <div><input type="radio" name="respostas[3]" value="SQL" /> SQL</div>
+    </div>
+
+    <div>
+        <label>5. O que significa a sigla "RAM"?</label><br />
+        <div><input type="radio" name="respostas[4]" value="Memória de Acesso Aleatório" /> Memória de Acesso Aleatório</div>
+        <div><input type="radio" name="respostas[4]" value="Memória de Leitura Somente" /> Memória de Leitura Somente</div>
+        <div><input type="radio" name="respostas[4]" value="Unidade de Armazenamento" /> Unidade de Armazenamento</div>
+        <div><input type="radio" name="respostas[4]" value="Memória de Backup" /> Memória de Backup</div>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>

@@ -1,0 +1,27 @@
+﻿@page
+@model RankingModel
+@{
+    ViewData["Title"] = "Ranking";
+}
+
+<h1>Ranking de Pontuação</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Usuário</th>
+            <th>Pontuação</th>
+            <th>Data</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.Rank)
+        {
+            <tr>
+                <td>@r.Nome</td>
+                <td>@r.Pontuacao</td>
+                <td>@r.DataHora.ToString("dd/MM/yyyy HH:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>

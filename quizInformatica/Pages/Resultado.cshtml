@@ -1,0 +1,11 @@
+﻿@page
+@model ResultadoModel
+@{
+    ViewData["Title"] = "Resultado";
+}
+
+<h1>Resultado do Quiz</h1>
+
+<p>Sua pontuação: <strong>@Model.Pontuacao</strong> de 5</p>
+
+<a asp-page="/Ranking" class="btn btn-success">Ver Ranking</a>
